@@ -1,11 +1,8 @@
 import cv2 as cv
 
 if __name__ == "__main__":
-    
-    import cv2 as cv
 
     capture = cv.VideoCapture(0)
-    import cv2
 
     while True:
         isTrue, src = capture.read()
